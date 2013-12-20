@@ -21,7 +21,7 @@ $file=fopen("$name.txt","r");
  if(empty($_POST["roll"]))
 							echo "no image is available";
 else
-							echo "<img src='$name.png' alt='error'>";
+							echo "<img src='upload/$name.png' alt='error'>";
  
  
 ?>
